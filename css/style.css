@@ -8374,9 +8374,9 @@ a[data-toggle="collapse"] {
   /* overflow:hidden;  */
   border-color: #000;
   margin-right: 50px;
-  margin-top: 40px;
-  min-height: 600px;
-  max-height: 700px;
+  margin-top: 20px;
+  min-height: 500px;
+  max-height: 550px;
   overflow:scroll; 
 }
 
@@ -8423,6 +8423,10 @@ a[data-toggle="collapse"] {
   background-color: #F0F0F0;
   display: none;
   padding-left:50px;
+}
+#staffs{
+  width:800px; 
+  height:500px; 
 }
 
 #staff h1{

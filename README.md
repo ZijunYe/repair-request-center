@@ -10,5 +10,6 @@ this is a significant problem, I have highlighted the key points below:
 - Inconvenience and discomfort: Student unable to select or get notified beforehand when does the maintenance staff will come.
 
 ## Links 
-High fidelity prototype(UI): 
+High fidelity prototype(UI): https://zijunye.github.io/repair-request-center/
+
 Medium fidelity mockup: https://www.figma.com/file/YiY0a5hodXvOY4LUerPVxO/SEG3125-Project1?type=design&node-id=0%3A1&t=9POwTu4YJDNEanQo-1

@@ -11,5 +11,4 @@ this is a significant problem, I have highlighted the key points below:
 
 ## Links 
 High fidelity prototype(UI): 
-Medium fidelity mockup: 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FYiY0a5hodXvOY4LUerPVxO%2FSEG3125-Project1%3Ftype%3Ddesign%26node-id%3D0%253A1%26t%3D9POwTu4YJDNEanQo-1" allowfullscreen></iframe>
+Medium fidelity mockup: https://www.figma.com/file/YiY0a5hodXvOY4LUerPVxO/SEG3125-Project1?type=design&node-id=0%3A1&t=9POwTu4YJDNEanQo-1

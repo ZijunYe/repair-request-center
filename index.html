@@ -50,7 +50,7 @@
             </ul>
      </nav>
       <!-- Page Content  -->
-     <div id="content">
+    <div id="content">
 
         <img  id="home-background"class="background" src="src/background_img.jpg" alt="residence image">
         <div id="home" class="container">
@@ -70,7 +70,7 @@
         <h2>Residence Repair Request Center</h2>
         <div class="input-group">
             <div>
-                <input type="search" id="form1" value="Search for repair service" class="form-control">  </input>
+                <input type="search" id="form1" class="form-control" placeholder="Search for repair service"/> 
             </div>
             <button type="button" class="btn">
              <i class="fas fa-search"></i></button>
@@ -82,8 +82,8 @@
                   <img src="./src/Bathroom.png">
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <h5 class="card-title">Bathroom Maintenance</h5>
+                  <p class="card-text">The repair type include: Toilet, Fan, Toilet Roll Holder,Mirror, Sink, Towel Rack, Shower Curtain and Bar, Shower, Bathtub, Bathroom Flooring, Towel Rack</p>
                   <a onclick="show('request')" href="#request" class="btn">Make Request</a>
                 </div>
               </div>
@@ -93,8 +93,8 @@
                     <img src="./src/Living_Areas.png">
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <h5 class="card-title">Living Areas Maintenance</h5>
+                  <p class="card-text">The repair type include: Living room Flooring, Wall Finishes,Kitchen sink,Countertop, Stove,Cabinets,Living room Fan, Refridgerator.</p>
                   <a onclick="show('request')" href="#request" class="btn">Make Request</a>
                 </div>
               </div>
@@ -104,8 +104,8 @@
                     <img src="./src/Doors_And_Window.png">
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <h5 class="card-title">Doors And Windows Maintenance</h5>
+                  <p class="card-text">The repair type include: Closet Door, Front Door, Keys, Door Knob, Interior Door, Lock,Window, Screen,Curtain Rod, Door Close</p>
                   <a onClick="show('request')" href="#request" class="btn">Make Request</a>
                 </div>
               </div>
@@ -115,8 +115,8 @@
                     <img src="./src/Other.png">
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <h5 class="card-title">Other Maintenance</h5>
+                  <p class="card-text">The repair type include: Light switch, Electrical Outlet, Cable Outlet, Healting/Cooling unit, Smoke Detector, Carbon Monoxide Detector, Pest Control</p>
                   <a onclick="show('request')" href="#request" class="btn">Make Request</a>
                 </div>
               </div> 
@@ -130,19 +130,25 @@
             <div class="row">
                 <div class="col-sm-6">
                   <div class="card">
-                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <img class="card-img-top" src="./src/staff1.png" alt="Card image cap">
                     <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <h5 class="card-title">Sarah Johnson | Facility Maintenance Specialist </h5>
+                      <p class="card-text">
+                        Sarah Johnson is a skilled Facility Maintenance Specialist with a passion for ensuring the smooth operation and functionality of commercial and residential buildings. <br>
+                        With a strong background in facilities management and maintenance, Sarah is experienced in overseeing the maintenance of various systems, performing repairs, and implementing preventive measures. 
+                      </p>
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="card">
-                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <img class="card-img-top" src="./src/Staff2.png" alt="Card image cap">
                     <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <h5 class="card-title">John Smith | Maintenance Technician</h5>
+                      <p class="card-text">
+                        John Smith is a dedicated and skilled Maintenance Technician with over five years of experience in providing reliable maintenance services. <br>
+                        He is committed to ensuring the smooth operation and functionality of various systems and equipment.<br>
+                        John possesses a strong knowledge of troubleshooting, repair, and preventive maintenance techniques. </p>
                     </div>
                   </div>
                 </div>
@@ -158,125 +164,174 @@
         <h2>Residence Repair Request Center</h2>
 
         <!-- multistep form -->
-
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-11 col-sm-9 col-md-7 col-lg-6 col-xl-5 text-center p-0 mt-3 mb-2">
-                    <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
-                        <h2 id="heading">Sign Up Your User Account</h2>
-                        <p>Fill all form field to go to next step</p>
-        
-                        <form id="msform">
-                            <!-- progressbar -->
-                            <ul id="progressbar">
-                                <li class="active" id="account"><strong>Account</strong></li>
-                                <li id="personal"><strong>Personal</strong></li>
-                                <li id="payment"><strong>Image</strong></li>
-                                <li id="confirm"><strong>Finish</strong></li>
-                            </ul>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <br>
-                            <!-- fieldsets -->
-                            <fieldset>
-                                <div class="form-card">
-                                    <div class="row">
-                                        <div class="col-7">
-                                            <h2 class="fs-title">Account Information:</h2>
-                                        </div>
-                                        <div class="col-5">
-                                            <h2 class="steps">Step 1 - 4</h2>
-                                        </div>
-                                    </div>
-                                    <label class="fieldlabels">Email: *</label>
-                                    <input type="email" name="email" placeholder="Email Id"/>
-                                    <label class="fieldlabels">Username: *</label>
-                                    <input type="text" name="uname" placeholder="UserName"/>
-                                    <label class="fieldlabels">Password: *</label>
-                                    <input type="password" name="pwd" placeholder="Password"/>
-                                    <label class="fieldlabels">Confirm Password: *</label>
-                                    <input type="password" name="cpwd" placeholder="Confirm Password"/>
-                                </div>
-                                <input type="button" name="next" class="next action-button" value="Next"/>
-                            </fieldset>
-                            <fieldset>
-                                <div class="form-card">
-                                    <div class="row">
-                                        <div class="col-7">
-                                            <h2 class="fs-title">Personal Information:</h2>
-                                        </div>
-                                        <div class="col-5">
-                                            <h2 class="steps">Step 2 - 4</h2>
-                                        </div>
-                                    </div>
-                                    <label class="fieldlabels">First Name: *</label>
-                                    <input type="text" name="fname" placeholder="First Name"/>
-                                    <label class="fieldlabels">Last Name: *</label>
-                                    <input type="text" name="lname" placeholder="Last Name"/>
-                                    <label class="fieldlabels">Contact No.: *</label>
-                                    <input type="text" name="phno" placeholder="Contact No."/>
-                                    <label class="fieldlabels">Alternate Contact No.: *</label>
-                                    <input type="text" name="phno_2" placeholder="Alternate Contact No."/>
-                                </div>
-                                <input type="button" name="next" class="next action-button" value="Next"/>
-                                <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
-                            </fieldset>
-                            <fieldset>
-                                <div class="form-card">
-                                    <div class="row">
-                                        <div class="col-7">
-                                            <h2 class="fs-title">Image Upload:</h2>
-                                        </div>
-                                        <div class="col-5">
-                                            <h2 class="steps">Step 3 - 4</h2>
-                                        </div>
-                                    </div>
-                                    <label class="fieldlabels">Upload Your Photo:</label>
-                                    <input type="file" name="pic" accept="image/*">
-                                    <label class="fieldlabels">Upload Signature Photo:</label>
-                                    <input type="file" name="pic" accept="image/*">
-                                </div>
-                                <input type="button" name="next" class="next action-button" value="Submit"/>
-                                <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
-                            </fieldset>
-                            <fieldset>
-                                <div class="form-card">
-                                    <div class="row">
-                                        <div class="col-7">
-                                            <h2 class="fs-title">Finish:</h2>
-                                        </div>
-                                        <div class="col-5">
-                                            <h2 class="steps">Step 4 - 4</h2>
-                                        </div>
-                                    </div>
-                                    <br><br>
-                                    <h2 class="purple-text text-center"><strong>SUCCESS !</strong></h2>
-                                    <br>
-                                    <div class="row justify-content-center">
-                                        <div class="col-3">
-                                            <img src="https://i.imgur.com/GwStPmg.png" class="fit-image">
-                                        </div>
-                                    </div>
-                                    <br><br>
-                                    <div class="row justify-content-center">
-                                        <div class="col-7 text-center">
-                                            <h5 class="purple-text text-center">You Have Successfully Signed Up</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </fieldset>
-                        </form>
-                    </div>
-                </div>
+        <div class="progressBar" id="progress">
+          <div class="step">
+            <p>Repair Type</p>
+            <div class="bullet" id="bullet1">
+              <span>1</span>
+              <div class="check fas fa-check"></div>
             </div>
+          </div>
+          <div class="step">
+            <p>Appointment Time</p>
+            <div class="bullet" id="bullet2">
+              <span>2</span>
+              <div class="check fas fa-check"></div>
+            </div>
+           
+          </div>
+          <div class="step">
+            <p>Residence Address</p>
+            <div class="bullet" id="bullet3">
+              <span>3</span>
+              <div class="check fas fa-check"></div>
+            </div>
+           
+          </div>
+          <div class="step">
+            <p>Requester Info</p>
+            <div class="bullet" id="bullet4">
+              <span>4</span>
+              <div class="check fas fa-check"></div>
+            </div>
+          
+          </div>
+          <div class="step">
+            <p>Request Overview </p>
+            <div class="bullet" id="bullet5">
+              <span>5</span>
+              <div class="check fas fa-check"></div>
+            </div>
+            
+          </div>
+
+
         </div>
 
+        <div class="requestForm" id="rform">
+          <div class="form-outer">
+            <div class="formItem slide" id="repairType">
+              <h3>Select Repair Type</h3>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Select Repair Type</option>
+                <option value="1">Bathroom Repair</option>
+                <option value="2">Living Areas Repair</option>
+                <option value="3">Doors and Windows Repair</option>
+                <option value="3">Other Repair</option>
+              </select>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Please specify the problem</label>
+                <textarea class="form-control inputText" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button onClick="next('repairType')" id="next" type="button" class="btn btn-secondary">Next</button>
+            </div>
+    
+            <div class="formItem" id="requestTime">
+              <h3>Select Appointment Time</h3>
+              <label >Enter a date and time for your booking:</label><br>
+              <input
+                class="form-control calendar"
+                id="party"
+                type="datetime-local"
+                name="partydate"
+                value="2023-06-09T08:30" />
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Select Priority</option>
+                  <option value="1">High</option>
+                  <option value="2">Medium</option>
+                  <option value="3">Low</option>
+                </select>
+                <br>
+                <br>
+                <button onClick="previous('requestTime')" type="button" class="btn btn-secondary">Previous</button>
+                <button  onClick="next('requestTime')" type="button" class="btn btn-secondary">Next</button>
+            </div>
+    
+            <div class="formItem" id="residenceAddress">
+              <h3>Residence Address</h3>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Select Priority</option>
+                <option value="1">Priority High</option>
+                <option value="2">Priority Medium</option>
+                <option value="3">Priority Low</option>
+              </select>
+    
+              <div class="form-group">
+                <label for="unit">Enter unit number</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
 
+              <button onClick="previous('requestTime')" type="button" class="btn btn-secondary">Previous</button>
+              <button  onClick="next('residenceAddress')" type="button" class="btn btn-secondary">Next</button>
+            </div>
 
-
-
+            <div class="formItem" id="userInfo">
+              <h3>Enter Requester Info</h3>
+              <div class="form-group">
+                <label for="unit">Enter Your Full Name</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="unit">Enter Your Student Number</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="unit">Enter Email Address</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button onClick="previous('residenceAddress')" type="button" class="btn btn-secondary">Previous</button>
+              <button onClick="next('userInfo')" type="button" class="btn btn-secondary">Next</button>
+    
+            </div>
+    
+            <div class="formItem" id="requestSummary"> 
+              <h3>Request Summary</h3>
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <th scope="row">Repair Type</th>
+                    <td>
+                      Bathroom Maintenance<br>
+                      It's sink problem. The sink is blocked. 
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Appointment Time</th>
+                    <td>
+                      May 22th, 2023 <br>
+                      6:00 pm - 8:00 pm <br>
+                      Priority High
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Residence Address</th>
+                    <td>
+                      Annex <br>
+                      912B
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">User Info</th>
+                    <td>
+                      Anna Liu <br>
+                      330168067<br>
+                      anna088@uottawa.ca
+    
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <button onClick="reset()"type="button" class="btn btn-secondary">Cancel</button>
+              <button onClick="displayConfirmation()" type="button" class="btn btn-secondary">Submit</button> 
+            </div>
+          </div>
         </div>
+        <div id="confirmation">
+          <img src="./src/Frame 29.png">
+          <p>Thank you for your Submission! <br> Our staff will Contact you soon for the request confirmation :) </p>
+        </div>
+        
+      </div>
 
       <div id="contact">
         <h1>Contact</h1>
